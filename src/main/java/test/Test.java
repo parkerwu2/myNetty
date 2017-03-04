@@ -10,6 +10,8 @@ class Null {
 }
 public class Test {
     public static void main(String[] args) {
-        ((Null)null).a();
+        double d1 = -0.5d;
+        System.out.println(Math.ceil(d1));
+        System.out.println(Math.floor(d1));
     }
 }
